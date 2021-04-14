@@ -36,11 +36,13 @@ if (a>b){
 if (b>c){
     c=b
 }
+
 console.log(c)
 // Create a new string adding "Py" in front of a given string. If the given string begins with "Py" then print the original string.
 
 let old_string= "ton"
 let addition= "py"
+console.log(addition.concat(old_string))
 if(addition.concat(old_string).slice(0,2)=="py"){
     console.log(old_string)
 }
